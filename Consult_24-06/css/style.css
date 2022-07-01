@@ -1,0 +1,50 @@
+
+
+.main {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.main-2 {
+    left: 50%;
+    top: 50%; 
+    transform: translate(50%,50%);
+}
+
+.main-4 { 
+    right:50%;
+    top: 50%;
+    transform: translate(-50%,50%);
+}
+
+.main-6 { 
+    right: 50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.main-7 { 
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%,50%);
+}
+
+.main-8 { 
+    left: 50%;
+    bottom: 50%;
+    transform: translate(50%,-50%);
+}
+
+.round { 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    transform: translate(-50%, -50%);
+    background-color: bisque;
+    border-radius: 50%;
+}
+

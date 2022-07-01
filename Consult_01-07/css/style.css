@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    display: flex;
+    max-width: 300px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px 40px;
+    flex-direction: column;
+}
+
+button {
+    color: #f39c12;
+    border: 1px solid #f39c12;
+    padding: 5px 20px;
+    background-color: white;
+    transition: color, background-color, box-shadow;
+    transition-duration: 0.5s;
+    margin: 2px 0px; 
+
+}
+
+button:hover {
+    color: white;
+    background-color: #f39c12;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 5px 10px 10px #888888;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    transition: box-shadow 0.5s;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 1px solid #f39c12;
+}

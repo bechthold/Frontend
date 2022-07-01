@@ -1,0 +1,38 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px; /* выравнивание по высоте*/
+    margin: 10px;
+}
+
+.block1 {
+    display: flex;
+    /*height: 300px;*/
+    /*flex-direction: row-reverse;*/
+    /*justify-content: space-around;*/
+    align-items: end;
+    flex-wrap: nowrap;
+}
+
+.block2 {
+    display: flex;
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+}
+
+/* 
+
+flex-direction - выбор направления основной оси
+justify-content - выравнивание элементов вдоль основной оси
+align-items - выравнивание перпендикулярно основной оси
+flex-wrap - перенос элементов на следующую строку
+
+*/

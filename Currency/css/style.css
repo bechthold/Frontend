@@ -1,0 +1,18 @@
+img {
+    width: 40px;
+}
+
+table , th, td {
+    border: 1px solid black;
+    
+}
+
+td, th {
+    width: 100px;
+    overflow: scroll;
+}
+
+table {
+    table-layout: fixed;
+    width: px;
+}

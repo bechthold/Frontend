@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: sans-serif;
+    background:  linear-gradient(#d1d8e0, #778ca3) fixed;
+    
+}
+
+h1 {
+    color: #4b6584;
+    padding: 50px 250px 5px;
+     
+    }
+
+.intro
+{
+    padding: 5px 250px;
+}
+
+.about 
+{
+    padding: 5px 250px;
+    text-align: justify;
+}
+
+.city {
+    
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+      
+}
+
+h2 {
+    color: #111F3E;
+    padding: 15px 250px 5px;
+}
+
+ul {
+    padding: 5px 280px;
+}
+
+ol {
+    padding: 5px 280px;
+}
+
+h3 {
+    padding: 5px 250px;
+    color: #111F3E;
+}
+
+.info
+{   padding: 5px 300px;
+    text-align: end;
+    
+    padding-bottom: 5px;
+    font-size: small;
+}
+
+.end {
+    padding-bottom: 50px;
+}

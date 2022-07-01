@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.post {
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: background-color 0.5s,
+                height 0.5s cubic-bezier(0.77, -0.29, 1, -0.35);
+    transition-delay: 0.5s;
+
+}
+
+.post:hover {
+    background-color: bisque;
+    height: 250px;
+}
+
+.post .info {
+    background-color: blue;
+    height: 0;
+    width: 0;
+    transition: height 0.5s ,
+                width 0.5s ;
+    transition-timing-function: cubic-bezier(0.77, -0.29, 1, -0.35);
+    transition-delay: 0.5s;
+}
+
+.post:hover .info {
+    height: 20px;
+    width: 100%;
+}
+
+.card {
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin:20px;
+    position: relative;
+}
+
+[data-content]:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    content: attr(data-content);
+    padding: 0 5px;
+    min-width: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
